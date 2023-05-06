@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: url("assets/fonts/Maven Pro/MavenPro-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Pulang";
+    src: url("assets/fonts/Pulang/Pulang.ttf");
+}
+@font-face {
+    font-family: "Astro";
+    src: url("assets/fonts/Astro Space/AstroSpace-eZ2Bg.ttf");
+}
+body {
+    background-image: url('assets/img/nature.jpg');
+}
+.showcase1{
+    font-family: Pulang;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.showcase2{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.showcase3{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.iCity{
+    font-family: Maven Pro;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: transparent; 
+    border-color: transparent;
+    border-bottom-color: #02435F;
+    display: inline-block;
+}
+.iCity:hover{
+    background-color: transparent;
+}
+.spekta1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.spekta2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: whitesmoke;
+    font-family: Maven Pro;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.spekta3{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.775);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.elim1{
+    text-align: center;
+    font-family: Candara Light;
+    font-size: 60px;
+    font-weight: bold;
+    color: yellow;
+}
+.elim2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.elim3{
+    font-family: Maven Pro; 
+    font-size: 18px;
+    color: yellow;
+}
+.elim4{
+    font-family: Candara Light; 
+    font-size: 25px;
+    color: blueviolet;
+}
+.elim5{
+    text-align: center;
+    color: yellow;
+    font-family: Maven Pro;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.cardStyle{
+    background-color: transparent;
+    border-color: yellow;
+    width: 18rem; 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card-icon{
+    margin-right: 40px;
+    display: flex;
+}
+.text-icon{
+    font-size: 50px;
+    color: yellow;
+}
+.flexible{
+    display: flex;
+}
+.noflex{
+    display: block;
+}
+.weather-icon{
+    width: 150px;
+    text-align: center;
+}
