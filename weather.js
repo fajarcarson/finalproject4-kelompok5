@@ -5,6 +5,16 @@ ybtn.addEventListener("click", function () {
 	search()
 });
 
+const searchInput = document.getElementById("search");
+
+searchInput.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        search();
+    }
+});
+
+
 function search() {
     const input = document.getElementById("search").value
     const apiKey = '4af6ebc02091900d1a0eeb7808df470e';
